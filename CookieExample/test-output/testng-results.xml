@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-31T13:12:36 IST" name="Default suite" finished-at="2024-12-31T13:12:55 IST" duration-ms="19439">
+    <groups>
+    </groups>
+    <test started-at="2024-12-31T13:12:36 IST" name="Default test" finished-at="2024-12-31T13:12:55 IST" duration-ms="19439">
+      <class name="com.getCookieFromFile.CookieFromFile">
+        <test-method is-config="true" signature="invokeBrowser()[pri:0, instance:com.getCookieFromFile.CookieFromFile@20140db9]" started-at="2024-12-31T13:12:36 IST" name="invokeBrowser" finished-at="2024-12-31T13:12:43 IST" duration-ms="7608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="loadValuesFromFile()[pri:0, instance:com.getCookieFromFile.CookieFromFile@20140db9]" started-at="2024-12-31T13:12:43 IST" name="loadValuesFromFile" finished-at="2024-12-31T13:12:55 IST" duration-ms="11583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadValuesFromFile -->
+        <test-method signature="getCookies()[pri:0, instance:com.getCookieFromFile.CookieFromFile@20140db9]" started-at="2024-12-31T13:12:55 IST" name="getCookies" finished-at="2024-12-31T13:12:55 IST" depends-on-methods="com.getCookieFromFile.CookieFromFile.loadValuesFromFile" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCookies -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.getCookieFromFile.CookieFromFile@20140db9]" started-at="2024-12-31T13:12:55 IST" name="closeBrowser" finished-at="2024-12-31T13:12:55 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.getCookieFromFile.CookieFromFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,26 @@
+package UIAutomationProject.UIProject.factory;
+
+public class Constant {
+	
+	public static String BASE_URL = "https://naveenautomationlabs.com/opencart/index.php?route=common/home";
+	public static final String HOME_PAGE_TITLE="Your Store";
+
+    public static final String LOGIN_PAGE_TITLE="Account Login";
+
+    public static final String ACCOUNT_PAGE_TITLE="My Account";
+
+    public static final String REGISTER_PAGE_TITLE="Register Account";
+
+    public static final String LOGOUT_PAGE_TITLE="Account Logout";
+
+    public static final String SEARCH_PAGE_TITLE="Search";
+
+    public static final String INVALID_USER_WARNING="Warning: No match for E-Mail Address and/or Password.";
+
+    public static final String ACCOUNT_PAGE_SUCCESS_TITLE="Your Account Has Been Created!";
+    public static final String SHOPPING_CART_PAGE_TITLE=   "Shopping Cart";
+    public static final String WISHLIST_PAGE_TITLE="My Wish List";
+    public static String EMAIL_ADDRESS = "jhonawick@abraham.com";
+    public static String PASSWORD = "Jhonwick@1235";
+
+}

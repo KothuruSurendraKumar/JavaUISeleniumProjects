@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-02T12:54:45 IST" name="Default suite" finished-at="2024-12-02T12:55:13 IST" duration-ms="28694">
+    <groups>
+    </groups>
+    <test started-at="2024-12-02T12:54:45 IST" name="Default test" finished-at="2024-12-02T12:55:13 IST" duration-ms="28694">
+      <class name="SeleniumJavaFramework.ExtentReportProject.ExtentReportDemo">
+        <test-method is-config="true" signature="extentReportCOnfig()[pri:0, instance:SeleniumJavaFramework.ExtentReportProject.ExtentReportDemo@18df8434]" started-at="2024-12-02T12:54:45 IST" name="extentReportCOnfig" finished-at="2024-12-02T12:54:45 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportCOnfig -->
+        <test-method signature="basicTest()[pri:0, instance:SeleniumJavaFramework.ExtentReportProject.ExtentReportDemo@18df8434]" started-at="2024-12-02T12:54:45 IST" name="basicTest" finished-at="2024-12-02T12:55:13 IST" duration-ms="28303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicTest -->
+      </class> <!-- SeleniumJavaFramework.ExtentReportProject.ExtentReportDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

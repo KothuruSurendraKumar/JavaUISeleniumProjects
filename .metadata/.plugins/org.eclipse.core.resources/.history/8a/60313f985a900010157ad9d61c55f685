@@ -1,0 +1,76 @@
+package com;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class CommonElementsInTwoLists {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList<Integer> list1 = new ArrayList<Integer>(Arrays.asList(1, 3, 5, 7, 8));
+		ArrayList<Integer> list2 = new ArrayList<Integer>(Arrays.asList(2, 4, 6, 8, 10));
+		
+		Map<String,Integer> map = new HashMap<String,Integer>();
+		map.put("A", 40);
+		map.put("B", 30);
+		map.put("C", 20);
+		map.put("D", 10);
+		
+
+//		list1.add(1);
+//		list1.add(2);
+//		
+//		list2.add(2);
+//		list2.add(3);
+
+		System.out.println(list1);
+		System.out.println(list2);
+		
+		System.out.println(findCommonInNormalMethod(list1,list2));
+		System.out.println(findCommonInStreamMethod(list1,list2));
+		getAllValuesWithKey(map);
+	
+
+	}
+
+	private static void getAllValuesWithKey(Map<String, Integer> map) {
+		// TODO Auto-generated method stub
+		String[] keys = {"A","B","C","E"};
+		for(String key : keys) {
+			Integer value = map.get(key);
+			if(value != null) {
+				System.out.println(key + " : "+value);
+			}else {
+				System.out.println(key + " : "+"Key not found");
+			}
+		}
+		
+		
+	}
+
+	private static List<Integer> findCommonInStreamMethod(ArrayList<Integer> list1, ArrayList<Integer> list2) {
+		// TODO Auto-generated method stub
+		List<Integer> common = list1.stream().filter(num -> list2.contains(num)).collect(Collectors.toList());
+		
+		return common;
+	}
+
+	private static List<Integer> findCommonInNormalMethod(ArrayList<Integer> list1, ArrayList<Integer> list2) {
+		// TODO Auto-generated method stub
+		List<Integer> common = new ArrayList<Integer>();
+		
+		for(Integer num : list1) {
+			if(list2.contains(num)) {
+				common.add(num);
+			}
+		}
+		
+		return common;
+	}
+
+}

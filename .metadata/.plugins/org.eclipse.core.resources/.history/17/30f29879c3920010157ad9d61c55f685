@@ -1,0 +1,53 @@
+package com.selenium.ajax;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+//Ajax calls are nothing mouse and keyboard actions
+
+public class ActionsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://www.google.com/");
+		
+//		driver.get("https://www.flipkart.com/");
+//		driver.manage().window().maximize();
+//		
+//		Actions a = new Actions(driver);
+//		
+//		WebElement search = driver.findElement(By.xpath("//input[@placeholder='Search for Products, Brands and More']"));
+//		
+//		//Enter keys in Capitol letters
+//		//consider we have serach box we need to enter any key like mobile.it should enter as caps like MOBILE
+//		//For enetering in capitol letters we are clicking shift button and enter any letter it would print as caps
+//		
+//		a.moveToElement(search).click()
+//			.keyDown(Keys.SHIFT).sendKeys("mobile").build().perform();
+//		
+//		
+//		search.clear();
+//		
+//		//how to select the text .normally we use double click to select text
+//		a.moveToElement(search).click().sendKeys("watch").doubleClick().build().perform();
+//		
+//		
+//		
+//		//here just moving the mouse point to specific elemrnt
+//		a.moveToElement(driver.findElement(By.cssSelector("a[title='Login']"))).build().perform();
+//		
+//		//need to do right click
+//		
+//		a.moveToElement(driver.findElement(By.cssSelector("a[title='Login']"))).contextClick().build().perform();
+		
+		
+		
+	}
+
+}

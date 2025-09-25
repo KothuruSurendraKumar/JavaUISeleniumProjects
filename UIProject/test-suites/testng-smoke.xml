@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Smoke Suite" parallel="methods">
+	<test name="Smoke Tests">
+		<classes>
+			<class name="UIAutomationProject.UIProject.tests.login.LoginTest"/>
+		</classes>
+	</test>
+</suite>

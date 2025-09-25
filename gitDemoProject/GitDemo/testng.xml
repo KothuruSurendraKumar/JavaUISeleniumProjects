@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department" parallel="tests" thread-count="3"> <!-- consider this as project name -->
+  <listeners>
+  	<listener class-name="TestCases.ListenersDemo"></listener>
+  </listeners>
+  <test name="personal loan"> <!-- package names -->
+    <classes>
+      <class name="TestCases.Demo1"/> <!-- class names -->
+      <class name="TestCases.Demo2"/>
+    </classes>
+  </test> <!-- Test -->
+  <!-- include only one test case -->
+  <test name="car loan"> <!-- package names -->
+    <classes>
+      <class name="TestCases.CarLoan">
+      	<methods>
+      		<include name="webLoginCar"></include>
+      	</methods>
+      </class> <!-- class names -->
+    </classes>
+  </test> 
+  <!-- Need to exculde any method in class consider we need to exclude API case and need to run remaining cases -->
+  <test name="Home loan"> <!-- package names -->
+    <classes>
+      <class name="TestCases.HomeLoan">
+      	<methods>
+      		<exclude name="APILoginHome"/>
+      	</methods>
+      </class> <!-- class names -->
+    </classes>
+  </test>
+</suite> <!-- Suite -->
+
+<!-- 
+Consider we have loan department.In that we have car loan,home loan,personal loan
+for every different lons we have 100 of cases.So we cant run every case seperatly .
+COnsider we need to run personal cases only
+ -->

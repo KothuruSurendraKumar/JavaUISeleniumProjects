@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/surendra.k/Documents/cicd/SeleniumFrameworkDemo"/>
+			<item value="/Users/surendra.k/Documents/workspace/gitDemoProject"/>
+			<item value="/Users/surendra.k/Downloads/SampleOne"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="CucumberHybridProject"/>
+			<item value="CookieExampleDemo"/>
+			<item value="SeleniumFeatures"/>
+			<item value="LatestSeleniumFeatures"/>
+			<item value="UploadAndDownloadDemo"/>
+			<item value="Selenium_first"/>
+		</list>
+		<list key="name">
+			<item value="first_project"/>
+		</list>
+		<list key="artifactId">
+			<item value="CucumberHybridProject"/>
+			<item value="CookieExample"/>
+			<item value="LatestJavaSeleniumFeatures"/>
+			<item value="NewSeleniumFeatures"/>
+			<item value="UploadAndDownloadDemo"/>
+			<item value="Selenium_first"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/Users/surendra.k/Documents/workspace/my-first-app"/>
+			<item value="/Users/surendra.k/Documents/workspace/ExtentReports"/>
+			<item value="/Users/surendra.k/Documents/workspace/Selenium_first/src/com/selenium/First_Selenium_class.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="YatraProject.YatraProject"/>
+			<item value="CucucmberTestProject.CucumberTestNG"/>
+			<item value="UIAutomationProject.UIProject"/>
+			<item value="MockAPIProject.APIProject"/>
+			<item value="CucumberE2EProject.CucumberProject"/>
+			<item value="org.CucumberE2EProject"/>
+		</list>
+		<list key="groupId">
+			<item value="YatraProject"/>
+			<item value="CucucmberTestProject"/>
+			<item value="UIAutomationProject"/>
+			<item value="MockAPIProject"/>
+			<item value="CucumberE2EProject"/>
+		</list>
+		<list key="artifactId">
+			<item value="YatraProject"/>
+			<item value="CucumberTestNG"/>
+			<item value="UIProject"/>
+			<item value="APIProject"/>
+			<item value="CucumberProject"/>
+			<item value="CucumberE2EProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="CucumberE2EProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.MavenProjectSelectionDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="450"/>
+		<item key="x" value="530"/>
+		<item key="y" value="119"/>
+	</section>
+</section>

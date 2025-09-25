@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-28T09:11:05 IST" name="Default suite" finished-at="2025-02-28T09:11:36 IST" duration-ms="30704">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberE2EProject.CucumberProject.runner.TestRunner@5386659f]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-02-28T09:11:05 IST" name="Default test" finished-at="2025-02-28T09:11:36 IST" duration-ms="30704">
+      <class name="CucumberE2EProject.CucumberProject.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CucumberE2EProject.CucumberProject.runner.TestRunner@5386659f]" started-at="2025-02-28T09:11:05 IST" name="setUpClass" finished-at="2025-02-28T09:11:06 IST" duration-ms="883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7871d261]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberE2EProject.CucumberProject.runner.TestRunner@5386659f]" started-at="2025-02-28T09:11:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-28T09:11:30 IST" duration-ms="24520" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User doesnt enters any field"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User Regestration"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Last Name must be between 1 and 32 characters!] but found [Last Name must be between 1 and 32 character]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Last Name must be between 1 and 32 characters!] but found [Last Name must be between 1 and 32 character]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at CucumberE2EProject.CucumberProject.stepImpl.Register.user_need_to_get_respective_warning_message_for_every_field(Register.java:111)
+at ✽.user need to get respective warning messages for every field(file:///Users/surendra.k/Documents/workspace/CucumberProject/src/test/resources/features/Register.feature:49)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberE2EProject.CucumberProject.runner.TestRunner@5386659f]" started-at="2025-02-28T09:11:31 IST" name="tearDownClass" finished-at="2025-02-28T09:11:36 IST" duration-ms="4981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- CucumberE2EProject.CucumberProject.runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

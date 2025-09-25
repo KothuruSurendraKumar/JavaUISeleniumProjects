@@ -1,0 +1,10 @@
+package test.java.runner;
+
+public class E2EFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

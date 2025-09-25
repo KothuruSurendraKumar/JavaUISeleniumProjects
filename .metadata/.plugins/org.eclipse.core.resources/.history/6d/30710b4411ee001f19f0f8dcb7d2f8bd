@@ -1,0 +1,25 @@
+package test.java.runner;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+
+public class E2EFile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.naukri.com");
+		
+		driver.findElement(By.id("login_Layer")).click();
+		driver.findElement(By.xpath("//input[contains(@placeholder,'Username')]")).sendKeys("kothurusurendra98@gmail.com");
+		driver.findElement(By.xpath("//input[contains(@placeholder,'password')]")).sendKeys("Surendra@1");
+		driver.findElement(By.xpath("//button[@type='submit']"));
+		
+		
+		
+
+	}
+
+}

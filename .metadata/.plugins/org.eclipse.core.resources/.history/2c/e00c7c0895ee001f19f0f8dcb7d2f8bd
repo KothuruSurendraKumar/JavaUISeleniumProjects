@@ -1,0 +1,58 @@
+package test.java.runner;
+import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+
+public class E2EFile {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+//		ChromeOptions options = new ChromeOptions();
+//
+//        // Create a map for preferences
+//        Map<String, Object> prefs = new HashMap<>();
+//        // Disable image loading (including CSS background images)
+//        prefs.put("profile.managed_default_content_settings.images", 2);
+//        options.setExperimentalOption("prefs", prefs);
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		//WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(120));
+		driver.get("https://www.naukri.com");
+		
+//		driver.findElement(By.id("login_Layer")).click();
+//		driver.findElement(By.xpath("//input[contains(@placeholder,'Username')]")).sendKeys("kothurusurendra98@gmail.com");
+//		driver.findElement(By.xpath("//input[contains(@placeholder,'password')]")).sendKeys("Surendra@1");
+//		driver.findElement(By.xpath("//button[@type='submit']")).click();
+//		Thread.sleep(15000);
+//		//WebElement ele = driver.findElement(By.xpath("//img[@alt='Naukri Logo']"));
+//		//wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//img[@alt='Naukri Logo']"))));
+//		//driver.findElement(By.partialLinkText("View")).click();
+//		driver.findElement(By.xpath("/img[@class='nI-gNb-icon-img']")).click();
+//		driver.findElement(By.xpath("//*[@class='nI-gNb-info__sub-link']")).click();
+//		driver.findElement(By.xpath("//*[@id='_kxijoatocNavbar']//div")).click();
+//		driver.findElement(By.xpath("/*[contains(@class,'quickLink')]//span[contains(text(),'Career')]")).click();
+//		driver.findElement(By.xpath("//*[@id='lazyDesiredProfile']//span[contains(.,'editOneTheme')]")).click();
+//		driver.findElement(By.id("locationSugg"));
+//		driver.findElement(By.xpath("//*[text()='Chennai']")).click();
+//		String msg = driver.findElement(By.xpath("//div[@class='mod-date']/span[contains(.,'Today')]")).getText();
+//		System.out.println("is updated "+msg);
+		
+		
+		//driver.findElement(By.id("saveDesiredProfile")).click();
+		
+		
+		
+
+	}
+
+}
